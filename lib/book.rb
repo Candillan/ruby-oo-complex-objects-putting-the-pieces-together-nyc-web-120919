@@ -6,9 +6,8 @@ class Book
     @genre = genre
   end
   
-  def title
-    @title
-  end
+  attr_reader [:title, :author, :page, :genre]
+  
   
   
 end
