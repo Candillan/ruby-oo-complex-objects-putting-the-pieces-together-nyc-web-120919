@@ -5,4 +5,9 @@ class Shoe
   end
   
   attr_reader :brand, :color, :size, :material, :condition
+  attr_writer :brand, :color, :size, :material, :condition
+  
+  def cobble
+    @condition = "new"
+  
 end
