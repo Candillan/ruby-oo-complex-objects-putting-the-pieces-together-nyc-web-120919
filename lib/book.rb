@@ -7,6 +7,7 @@ class Book
   end
   
   attr_reader :title, :author, :page, :genre
+  attr_writer :title, :author, :page, :genre
   
   
   
